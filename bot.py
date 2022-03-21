@@ -26,7 +26,7 @@ async def start(event):
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/arulproject'),
-        Button.url('👥 support', 'https://t.me/mordredsupport'), 
+        Button.url('👥 support', 'https://t.me/mordredsupport')
         Button.url('OFF TOPIK', 'https://t.me/wibu_telegram') 
       ]
     )
@@ -42,7 +42,7 @@ async def help(event):
       [
         Button.url('📣 Channel', 'https://t.me/arulproject'),
         Button.url('👥 Support', 'https://t.me/mordredSupports')
-        Button.url('OFF TOPIK',  'https://t.me/wibu_Telegram'), 
+        Button.url('OFF TOPIK',  'https://t.me/wibu_Telegram')
       ]
     )
   )
