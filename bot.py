@@ -25,8 +25,9 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/RendyProjects'),
-        Button.url('👥 support', 'https://t.me/VegetaSupports')
+        Button.url('📣 Channel', 'https://t.me/arulproject'),
+        Button.url('👥 support', 'https://t.me/mordredsupport'), 
+        Button.url('OFF TOPIK', 'https://t.me/wibu_telegram') 
       ]
     )
   )
@@ -39,8 +40,9 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/RendyProjects'),
-        Button.url('👥 Support', 'https://t.me/VegetaSupports')
+        Button.url('📣 Channel', 'https://t.me/arulproject'),
+        Button.url('👥 Support', 'https://t.me/mordredSupports')
+        Button.url('OFF TOPIK',  'https://t.me/wibu_Telegram'), 
       ]
     )
   )
